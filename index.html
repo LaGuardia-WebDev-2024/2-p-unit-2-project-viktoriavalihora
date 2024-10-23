@@ -1,4 +1,4 @@
-<!--
+      <!--
 Requirements
 [  ] Two Element Selectors
 [  ] Two ID Selectors
@@ -17,13 +17,21 @@ Select ONE Additional Feature to Add
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Unit 1 Project</title>
+    <style> 
+      
+      ul{color: rgb(48, 37, 100);} 
+     body {background-color: rgb(187, 177, 177);}
+      #Moderat {color: rgb(154, 55, 18);}
+
+    </style> <title>Unit 1 Project</title>
   </head>
   <body>
-    <h1>Moderat</h1>
+    <h1 id="Moderat">Moderat</h1>
     <ul style="list-style-type: square">
-      <li><h3>Albums</h3></li>
+      <li><h3 id= "albums">Albums</h3></li>
     </ul>
+    <style> #albums {color: rgb(154, 55, 18);} </style>
+ 
 
     <ul>
       Moderat (2009)
@@ -41,12 +49,18 @@ Select ONE Additional Feature to Add
     <ul>
       Live (2016)
     </ul>
-    <em>EP's</em>
+    <em class= "EP">EP's</em>
     <ol>
       <li>MORE LOVE</li>
       <li>Easy Prey</li>
     </ol>
-    <strong> <li>My Favorite EP's</li> </strong>
+    <style> 
+      .EP {background-color: rgb(131, 139, 222); color:rgb(34, 43, 130);} </style>
+    <style>
+      .Myfavep { color:rgb(34, 43, 130);} </style>
+      
+    <strong> <li class="Myfavep">My Favorite EP's</li> </strong>
+    
     <ol>
       <li>Let Your Love Grow</li>
       <li>Auf Kosten Der Gesundheit</li>
@@ -62,5 +76,10 @@ Select ONE Additional Feature to Add
     <img
       src="https://lastfm.freetls.fastly.net/i/u/avatar170s/363c5cd0d9763673489cbec59a751553"
     />
+    <div>
+      photogallery
+      <style>.apples {background-color:rgb(255,78,78);}</style>
+      
+    </div>
   </body>
 </html>
